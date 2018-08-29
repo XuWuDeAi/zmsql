@@ -6,3 +6,6 @@
 ## 用法：
 
 #### sql防注入
+```groovy
+implementation "com.blankj:rxbus:1.2"
+```
