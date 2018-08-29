@@ -22,15 +22,15 @@
 #### sql构造器
 ```groovy
 	SqlUpdate update = new SqlUpdate("student");
-		update.add2("sex", true);
-		update.add2("phone", "1234567");
-		System.out.println(update);
-		
-		SqlWhere where = new SqlWhere();
-		where.add2("id", 20180002);
-		System.out.println(where);
-		
-		SqlInsert insert = new SqlInsert("gg");
-		insert.add2("phone", "1234567");
-		System.out.println(insert);
+	update.add2("sex", true);
+	update.add2("phone", "1234567");
+	System.out.println(update);
+
+	SqlWhere where = new SqlWhere();
+	where.add2("id", 20180002);
+	System.out.println(where);
+
+	SqlInsert insert = new SqlInsert("gg");
+	insert.add2("phone", "1234567");
+	System.out.println(insert);
 ```
